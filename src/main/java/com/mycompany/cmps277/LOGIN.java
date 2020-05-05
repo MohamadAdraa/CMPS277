@@ -128,25 +128,25 @@ public class LOGIN extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        RECEPTIONIST AD = new RECEPTIONIST();
+        RECEPTIONISTLOGIN AD = new RECEPTIONISTLOGIN();
         AD.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        BLOODBANK AD = new BLOODBANK();
+        BLOODBANKLOGIN AD = new BLOODBANKLOGIN();
         AD.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        ADMIN AD = new ADMIN();
+        ADMINLOGIN AD = new ADMINLOGIN();
         AD.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        DOCTOR AD = new DOCTOR();
+        DOCTORLOGIN AD = new DOCTORLOGIN();
         AD.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton4ActionPerformed

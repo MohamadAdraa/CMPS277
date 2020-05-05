@@ -35,6 +35,7 @@ public class INSIDEADMIN extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
+        jButton7 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -89,7 +90,7 @@ public class INSIDEADMIN extends javax.swing.JFrame {
 
         jButton4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton4.setForeground(new java.awt.Color(51, 204, 255));
-        jButton4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Muhammad Al Adraa\\Documents\\NetBeansProjects\\Hospital Management System\\src\\LOGOUT (2).png")); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Muhammad Al Adraa\\Documents\\NetBeansProjects\\Hospital Management System\\src\\logout2.png")); // NOI18N
         jButton4.setText("LOGOUT");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -97,7 +98,18 @@ public class INSIDEADMIN extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton4);
-        jButton4.setBounds(10, 60, 130, 30);
+        jButton4.setBounds(1040, 50, 120, 30);
+
+        jButton7.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
+        jButton7.setForeground(new java.awt.Color(102, 204, 255));
+        jButton7.setIcon(new javax.swing.ImageIcon("C:\\Users\\Muhammad Al Adraa\\Documents\\Picture23.png")); // NOI18N
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton7);
+        jButton7.setBounds(1110, 90, 50, 50);
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Muhammad Al Adraa\\Documents\\NetBeansProjects\\Hospital Management System\\src\\adminpanel.png")); // NOI18N
         jPanel1.add(jLabel1);
@@ -147,6 +159,13 @@ public class INSIDEADMIN extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        // TODO add your handling code here:
+        CHANGINGUSERNAMEANDPASS1FORADMIN chnge = new CHANGINGUSERNAMEANDPASS1FORADMIN();
+        chnge.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton7ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -187,6 +206,7 @@ public class INSIDEADMIN extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton7;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
